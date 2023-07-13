@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+main{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.mainCard{
+    width: 40vw;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.inputForm {
+    border: none;
+    padding: 10px;
+    border: 1px solid #eee;
+    outline: none;
+    width: 80%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}  
+
+.btnCreate {
+    width: 70%;
+    padding: 10px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.cardList{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cards li{
+    width: 40vw;
+    background-color: #fff;
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkIcon{
+    cursor: pointer;
+}
+
+.deleteIcon{
+    color: #D35A60;
+    cursor: pointer;
+}
+
+.completeIcon {
+    color: rgba(62, 161, 219, 1);
+  }
+  
+  
+  
+  
